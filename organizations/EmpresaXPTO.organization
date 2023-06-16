@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="EmpresaXPTO">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="jvieira">
+      <firstName>João</firstName>
+      <lastName>Vieira</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="dbarroso">
+      <firstName>Diogo</firstName>
+      <lastName>Barroso</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="jbastos">
+      <firstName>João</firstName>
+      <lastName>Bastos</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="funcionario">
+      <displayName>Funcionario</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="empregados">
+      <displayName>Empregados</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>jvieira</userName>
+      <roleName>funcionario</roleName>
+      <groupName>empregados</groupName>
+    </membership>
+    <membership>
+      <userName>dbarroso</userName>
+      <roleName>funcionario</roleName>
+      <groupName>empregados</groupName>
+    </membership>
+    <membership>
+      <userName>jbastos</userName>
+      <roleName>funcionario</roleName>
+      <groupName>empregados</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
